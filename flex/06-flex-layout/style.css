@@ -22,8 +22,22 @@ body {
 }
 
 .header {
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.content {
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer {
+  margin-top: auto;
   justify-content: space-between;
   padding: 20px;
+  background-color: #eee;
 }
 
 .left-links,
@@ -31,13 +45,6 @@ body {
   gap: 20px;
 }
 
-.content {
-  flex-direction: column;
-}
-
-.footer {
-  margin-top: auto;
-}
 
 /* * added end  */
 
@@ -50,6 +57,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
@@ -69,4 +77,5 @@ ul {
 
 a {
   text-decoration: none;
+  color: black;
 }
