@@ -28,7 +28,15 @@ body {
 
 .left-links,
 .right-links {
-  gap: 16px;
+  gap: 20px;
+}
+
+.content {
+  flex-direction: column;
+}
+
+.footer {
+  margin-top: auto;
 }
 
 /* * added end  */
